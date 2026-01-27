@@ -6,19 +6,19 @@
 
 :root {
   /* Background colors */
-  --background: #0a0a0a;
-  --background-secondary: #111111;
-  --surface: #171717;
-  --surface-hover: #1f1f1f;
+  --background: #ffffff;
+  --background-secondary: #f4f4f5;
+  --surface: #ffffff;
+  --surface-hover: #f4f4f5;
 
   /* Foreground colors */
-  --foreground: #fafafa;
-  --foreground-muted: #a1a1aa;
-  --foreground-subtle: #71717a;
+  --foreground: #0a0a0a;
+  --foreground-muted: #71717a;
+  --foreground-subtle: #a1a1aa;
 
   /* Border colors */
-  --border: #27272a;
-  --border-hover: #3f3f46;
+  --border: #18181b;
+  --border-hover: #27272a;
 
   /* Cyan accent palette */
   --cyan-50: #ecfeff;

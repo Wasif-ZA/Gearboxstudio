@@ -33,7 +33,7 @@ const BackgroundGrid = () => (
 );
 
 const FloatingBarcode = () => (
-    <div className="absolute bottom-24 right-5 md:right-10 opacity-50 font-mono text-[10px] vertical-rl hidden lg:block select-none">
+    <div className="absolute bottom-24 right-5 md:right-10 opacity-50 font-mono text-[10px] writing-vertical hidden lg:block select-none">
         INV-2024-8829 // PROD-V1
         <div className="h-24 w-4 bg-black mt-2"></div>
     </div>
