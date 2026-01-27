@@ -162,7 +162,7 @@ function PricingCard({
                         {price}
                     </motion.span>
                 </AnimatePresence>
-                {price !== "Custom" && <span className="text-sm font-semibold text-slate-400 ml-1">/mo</span>}
+                {price !== "Custom" && <span className="text-sm font-semibold text-slate-500 ml-1">/mo</span>}
             </div>
 
             <ul className="mb-8 space-y-4 flex-1">

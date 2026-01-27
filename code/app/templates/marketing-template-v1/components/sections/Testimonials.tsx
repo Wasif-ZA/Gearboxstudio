@@ -91,7 +91,12 @@ function TestimonialRow({ items, duration }: { items: typeof testimonials, durat
 
                     <div className="flex items-center gap-4 mt-auto">
                         <div className="h-10 w-10 rounded-full bg-slate-100 border border-slate-200 overflow-hidden relative">
-                            <img src={testimonial.avatar} alt={testimonial.name} className="object-cover w-full h-full" />
+                            <Image
+                                src={testimonial.avatar}
+                                alt={testimonial.name}
+                                fill
+                                className="object-cover"
+                            />
                         </div>
                         <div>
                             <p className="font-bold text-slate-900 text-sm">{testimonial.name}</p>

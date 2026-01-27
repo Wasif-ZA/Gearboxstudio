@@ -39,7 +39,7 @@ export function CTA() {
                         </h2>
 
                         <p className="mx-auto max-w-[700px] text-slate-500 md:text-xl font-medium leading-relaxed">
-                            Join thousands of developers building the next generation of financial apps with <strong>GearBox Studios</strong>. Speed, security, and scalability included.
+                            Join thousands of developers building the next generation of financial apps with <strong>Gearbox Studios</strong>. Speed, security, and scalability included.
                         </p>
                     </div>
 
@@ -60,7 +60,7 @@ export function CTA() {
                         </Button>
                     </div>
 
-                    <div className="flex items-center gap-6 pt-4 text-sm text-slate-400 font-medium">
+                    <div className="flex items-center gap-6 pt-4 text-sm text-slate-500 font-medium">
                         <span className="flex items-center gap-2">
                             <CheckIcon className="w-4 h-4 text-emerald-500" /> Free for open source
                         </span>

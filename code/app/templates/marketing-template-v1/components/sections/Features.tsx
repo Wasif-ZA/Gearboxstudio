@@ -34,7 +34,7 @@ export function Features() {
             {/* THE ORBITAL SYSTEM */}
             <div className="relative w-full h-[700px] flex items-center justify-center scale-75 md:scale-100 -mt-10">
 
-                {/* Central Sun (Nexus Core) */}
+                {/* Central Sun (Gearbox Core) */}
                 <div className="absolute z-20 w-32 h-32 bg-white border border-slate-100 rounded-full flex items-center justify-center shadow-[0_20px_50px_-12px_rgba(0,0,0,0.1)] ring-8 ring-slate-50/50">
                     <div className="flex flex-col items-center gap-1">
                         <div className="w-8 h-8 bg-slate-900 rounded-lg flex items-center justify-center text-white shadow-md">
