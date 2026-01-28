@@ -14,7 +14,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'src/components/**' # Only trigger if components change
+      - 'code/components/**' # Only trigger if components change
 
 jobs:
   trigger:
