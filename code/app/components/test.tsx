@@ -90,6 +90,8 @@ const variants = {
         "bg-transparent border-white/20 hover:border-white/40 text-white",
     test:
         "bg-red-500/20 border-red-500/30 hover:border-red-500/50 text-red-50",
+    secondary:
+        "bg-neutral-900/40 border-white/10 hover:bg-neutral-900/60 text-white",
 } as const;
 
 // ============================================================================
