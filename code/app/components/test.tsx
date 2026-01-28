@@ -88,6 +88,8 @@ const variants = {
         "bg-cyan-500/20 border-cyan-500/30 hover:border-cyan-500/50 text-cyan-50",
     outline:
         "bg-transparent border-white/20 hover:border-white/40 text-white",
+    test:
+        "bg-red-500/20 border-red-500/30 hover:border-red-500/50 text-red-50",
 } as const;
 
 // ============================================================================
