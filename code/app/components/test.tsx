@@ -1,5 +1,6 @@
 import * as React from "react";
 import { cn } from "@/lib/utils";
+import { TypeOutline } from "lucide-react";
 
 // ============================================================================
 // COMPONENT: ExampleComponent
@@ -92,6 +93,16 @@ const variants = {
         "bg-red-500/20 border-red-500/30 hover:border-red-500/50 text-red-50",
     secondary:
         "bg-neutral-900/40 border-white/10 hover:bg-neutral-900/60 text-white",
+    ghost:
+        "bg-transparent border-transparent hover:bg-white/5 text-white",
+    danger:
+        "bg-red-500/20 border-red-500/30 hover:border-red-500/50 text-red-50",
+    success:
+        "bg-emerald-500/20 border-emerald-500/30 hover:border-emerald-500/50 text-emerald-50",
+    warning:
+        "bg-amber-500/20 border-amber-500/30 hover:border-amber-500/50 text-amber-50",
+
+
 } as const;
 
 // ============================================================================
